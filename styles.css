@@ -1,0 +1,246 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style the sections */
+section {
+    padding: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style the footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+#photo-gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery {
+    display: flex;
+    gap:10%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery img {
+    max-width: 10%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.4);
+}
+
+
+.price {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: red;
+}
+
+.discounted-price {
+    color: green;
+    font-weight: bold;
+}
+
+
+/* Change font and size for the homepagehead id */
+#homepagehead {
+    font-family: "Arial", sans-serif; /* Change the font family to Arial or your preferred font */
+    font-size: 20px; /* Change the font size to your desired size, e.g., 24px */
+    color: #333; /* Change the text color if needed */
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+
+/* ... (existing styles) ... */
+
+.shop-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.shop-button:hover {
+    background-color: #ff8800;
+}
+
+
+
+/*promation details pages */
+
+#promotion {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    width: 220px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.shop-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.shop-button:hover {
+    background-color: #ff8800;
+}
+
+
+/* memory page */
+#customer-memories {
+    text-align: center;
+    padding: 20px;
+}
+
+.memory-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.memory {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.memory img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.memory-text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+/* ... (existing styles) ... */
+
+.comment-form {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.comment-form h3 {
+    font-size: 20px;
+}
+
+#memory-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#memory-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#memory-form input,
+#memory-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#memory-form button {
+    padding: 8px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#memory-form button:hover {
+    background-color: #ff8800;
+}

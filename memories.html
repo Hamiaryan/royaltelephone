@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Customer Memories - The Retro Product Micro-site</title>
+</head>
+<script src="memory-form.js"></script>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="promotion.html">Promotion Details</a></li>
+                
+                <li><a href="memories.html">Customer Memories</a></li>
+                
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="customer-memories">
+        <h2>Customer Memories</h2>
+        <div class="memory-list">
+            <!-- Memory 1 -->
+            <div class="memory">
+                <img src="pics/mem4.jpg" alt="Customer Memory 1">
+                <p class="memory-text">"Every time I see an old telephone like this, 
+                    a flood of memories comes rushing back.
+                     I remember the anticipation as I dialed each number, 
+                     the distinct clicking sound of the rotary dial creating a rhythm of connection.
+                      Those late-night conversations, the dim glow of the room, 
+                      and the feeling that time stood still as we talked about everything and nothing.
+                       It's amazing how a simple object can hold such powerful memories and transport us to a different era."</p>
+                    
+            </div>
+            <div class="memory">
+                <img src="pics/mem2.jpg" alt="Customer Memory 2">
+                <p class="memory-text">"Ah, the nostalgia these old telephones bring back! 
+                    I can vividly recall the satisfying feel of rotating the dial, 
+                    each number chosen with care as if crafting a secret code. 
+                    Late nights spent huddled by the phone, lost in conversation, 
+                    the gentle click of hanging up becoming a signal of an evening well spent. 
+                    e memories make me long for the days when communication was a deliberate art,
+                     and every call held a touch of magic."</p>
+                    
+            </div>
+            <div class="memory">
+                <img src="pics/mem3.jpg" alt="Customer Memory 3">
+                <p class="memory-text">"Vintage telephones like these take me on a journey down memory lane.
+                     I can almost feel the weight of the receiver in my hand and hear the familiar sound of the dial as I spin it to make a call. 
+                     It's a reminder of a time when communication was a deliberate and personal act,
+                      where conversations held a special kind of meaning.
+                       These phones hold the stories of late-night chats, heart-to-heart talks,
+                        and the pure joy of hearing a loved one's voice on the other end.
+                         Truly a piece of history that brings back cherished memories."</p>
+                    
+                        
+            <!-- Memory 2 -->
+            <!-- Repeat similar structure for more memories -->
+        </div>
+        <div class="comment-form">
+            <h3>Leave Your Memory</h3>
+            <form id="memory-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="comment">Your Memory:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2023 Royal Vintage Telephone . All rights reserved.</p>
+    </footer>
+</body>
+</html>
